@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录成功</title>
+		<link rel="stylesheet" href="css/successAndFail.css" />
+		<script src="js/vue.js"></script>
+	</head>
+	<body>
+		<!--header start-->
+		<div id="header">
+			<div id="author">
+				<span>页面作者：I an</span>
+			</div>
+		</div>
+		<!--header end-->
+		<div id="words">
+			<span>登录成功...</span>
+			<div id="back">
+				<input class="back" type="button" value="返回" @click="back">
+			</div>
+		</div>
+		<script>
+			var words=new Vue({
+				el:"#words",
+				methods:{
+					back:function(){
+						location.assign("/login.html")
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

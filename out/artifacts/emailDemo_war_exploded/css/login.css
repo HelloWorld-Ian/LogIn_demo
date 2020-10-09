@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: skyblue;
+}
+#ID,#PassWord{
+	width: 96%;
+	height: 82%;
+	margin: 2px 2px;
+	border: 0;
+	outline: none;
+	background-color: midnightblue;
+	color: aliceblue;
+	border-radius: 30px;
+	text-align: center;
+}
+#logIn,#register{
+	width: 95%;
+	height: 89%;
+	margin: 2px 2px;
+	border: 0;
+	outline: none;
+	border-radius: 8px;
+	background-color:midnightblue ;
+	color: #F0F8FF;
+	float: left;
+}
+#logIn:hover,#register:hover{
+	background-color: royalblue;
+}
+#header{
+	width: 100%;
+	height:15px;
+	border-bottom: 1px solid dimgray;
+}
+#author{
+	font-size:0.1px;
+	float: right;
+	padding-bottom: 0px;
+}
+#main_img{
+	width: 275px;
+	height: 235px;
+	margin: 35px auto;
+	background: blue;
+	border-radius: 25px;
+	box-shadow:20px 20px 50px darkblue;
+}
+#main_img>div:nth-child(1),#main_img>div:nth-child(2){
+	width: 250px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 0 auto;
+	text-align: center;
+	font-size: 80px;
+	font-style: normal;
+	color: white;
+	border-radius: 15px;
+}
+
+#login_edit{
+	width:  320px;
+	height: 170px;
+	margin: 40px auto;
+	border: 1px solid midnightblue;
+	background: midnightblue;
+	border-radius: 10px;
+	box-shadow:20px 20px 50px darkblue;
+
+}
+#login_edit>div:nth-child(1),#login_edit>div:nth-child(2){
+	width: 200px;
+	height: 35px;
+	margin: 15px auto;
+	font-family: "gill sans mt condensed";
+	background-color:midnightblue ;
+	border: 0;
+	outline:none;
+	background-image: linear-gradient(to right,red,blue);
+	color: white;
+	border-radius: 30px;
+
+}
+#login_edit>div:nth-child(3){
+	width: 80px;
+	height: 35px;
+	margin-left: 70px;
+	margin-right: 20px;
+	background-color: royalblue ;
+	border-radius: 10px;
+	float: left;
+}
+#login_edit>div:nth-child(4){
+	width: 80px;
+	height: 35px;
+	background-color: royalblue ;
+	border-radius: 10px;
+	float: left;
+}

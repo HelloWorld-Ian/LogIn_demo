@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: skyblue;
+}
+#header{
+	width: 100%;
+	height:15px;
+	border-bottom: 1px solid dimgray;
+}
+#author{
+	font-size:0.1px;
+	float: right;
+	padding-bottom: 0px;
+}
+#ID,#PassWord{
+	width: 96%;
+	height: 82%;
+	margin: 2px 2px;
+	border: 0;
+	outline: none;
+	background-color: midnightblue;
+	color: aliceblue;
+	border-radius: 30px;
+    text-align: center;
+}
+#register{
+	width: 95%;
+	height: 89%;
+	margin: 2px 2px;
+	border: 0;
+	outline: none;
+	border-radius: 8px;
+	background-color:midnightblue ;
+	color: #F0F8FF;
+	float: left;
+}
+#register:hover{
+	background-color: royalblue;
+}
+#login_edit{
+	width:  320px;
+	height: 410px;
+	margin: 70px auto;
+	border: 1px solid midnightblue;
+	background: midnightblue;
+	border-radius: 10px;
+	box-shadow:20px 20px 50px darkblue;
+}
+#login_edit>div:nth-child(1){
+	margin-top: 20px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+#login_edit>div:nth-child(2),#login_edit>div:nth-child(3),#login_edit>div:nth-child(4){
+	width: 200px;
+	height: 35px;
+	margin: 30px auto;
+	background-color:midnightblue ;
+	border: 0;
+	outline:none;
+	background-image: linear-gradient(to right,red,blue);
+	color: white;
+	border-radius: 30px;
+}
+#login_edit>div:nth-child(5){
+	width: 80px;
+	height: 35px;
+	margin: 6px 115px;
+	background-color: royalblue ;
+	border-radius: 10px;
+}

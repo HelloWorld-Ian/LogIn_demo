@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册界面</title>
+	<link rel="stylesheet" href="css/register.css"/>
+	<script src="js/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+<!--header start-->
+<div id="header">
+	<div id="author">
+		<span>页面作者：I an</span>
+	</div>
+</div>
+<!--header end-->
+<form id="login_edit" method="post" action="/register">
+	<div>
+		<span>REGISTER</span>
+	</div>
+	<div>
+		<input type="text" id="ID" name="ID" placeholder="ID" />
+	</div>
+	<div>
+		<input type="text" id="PassWord" name="PassWord" placeholder="PASSWORD" v-model="passWord"/>
+	</div>
+	<div>
+		<input type="text" id="PassWord" placeholder="REPEAT PASSWORD" v-model="repeat"/>
+	</div>
+	<div>
+		<input type="button" id="register" value="注册" @click="register"/>
+	</div>
+	</div>
+
+
+	<script>
+		var vue=new Vue({
+			el:"#login_edit",
+			methods:{
+				register:function(){
+					if(this.passWord!==this.repeat){
+						alert("两次输入密码不一致，请重新输入");
+						return;
+					}else{
+						document.getElementById("login_edit").submit();
+					}
+				}
+			}
+		})
+	</script>
+</body>
+</html>
